@@ -8,9 +8,6 @@ from selenium.webdriver.support.ui import Select
 from bs4 import BeautifulSoup as bs
 import time
 
-
-
-
 # Abrindo o navegador
 driver = webdriver.Edge()
 driver.get("https://www.instagram.com/accounts/login/?hl=pt-br")
